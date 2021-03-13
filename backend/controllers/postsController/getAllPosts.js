@@ -1,11 +1,11 @@
 const Post = require('../../models/Post')
 
-const getAllPosts = async (req, res) => {
+const getAllPosts = async (_, res) => {
   try {
     const allPosts = await Post.find()
     console.log(allPosts)
     res.json({
-      message: 'Get All Posts working',
+      message: 'All Posts',
       posts: allPosts,
     })
   } catch (e) {
