@@ -1,0 +1,8 @@
+port=<your_port>
+mongo_uri=mongodb://localhost:27017/<database_name>
+
+For Eg.
+port=3000
+mongo_uri=mongodb://localhost:27017/testDB
+
+
